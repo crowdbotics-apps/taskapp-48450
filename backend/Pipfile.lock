@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b6d31935369eabe0ad54dcc1cef382c239c02ec9b83d73f6b3636d48e38594cc"
+            "sha256": "fe580de39d0e15076ad6dde400736318f632ff035b7b9d200fb8a226bee99023"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -91,6 +91,10 @@
         "cb-django-openai": {
             "editable": true,
             "path": "./modules/django_openai"
+        },
+        "cb-django-s3-file-uploader": {
+            "editable": true,
+            "path": "./modules/django_s3_file_uploader"
         },
         "certifi": {
             "hashes": [
